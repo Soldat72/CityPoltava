@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*from google fonts site */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.city_title {
+  color: #1B1D1F;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 36px;
+  margin-top: 0px;
+}
+
+.city_discript {
+  color: #1B1D1F;
+  /* main */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.city_page {
+  background: url("img/background.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+
+}
+
+.wrapper {
+  width: 1170px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.city_text_contaner {
+  border-radius: 40px;
+  background: #FFF;
+  box-sizing: border-box;
+  /* to limit size*/
+  padding-left: 60px;
+  /* internal intent*/
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 573px;
+  height: 444px;
+
+}
+
+.goit_logo {
+  position: absolute;
+  left: 0;
+  top: 32px;
+}
+
+.city_gallery {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.city_galary_title {
+  color: #1B1D1F;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 80px;
+  margin-top: 0px;
+
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.gallery_button {
+  width: calc(25% - 24px * 3 / 4);
+  /* spaces must be*/
+  margin-bottom: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 48px;
+  padding: 0;
+
+}
+
+.gallery_img {
+  width: 100%;
+  border-radius: 48px;
+}
